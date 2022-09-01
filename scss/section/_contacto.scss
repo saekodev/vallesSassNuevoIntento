@@ -1,0 +1,60 @@
+.mainContacto {
+  section {
+    margin: 10px;
+    padding: 10px;
+    text-align: justify;
+    justify-content: center;
+    p {
+      margin: 10px;
+      padding: 10px;
+    }
+  }
+}
+.selectorContacto {
+  margin: 10px;
+  padding: 10px;
+}
+.formularioMesa form {
+  display: flex;
+  align-items: flex-start;
+  margin: 10px;
+  padding: 20px;
+  flex-direction: column;
+}
+input[type="text"] {
+  text-align: center;
+  border-radius: 10px;
+}
+input[type="date"] {
+  text-align: center;
+  border-radius: 10px;
+}
+input[type="email"] {
+  text-align: center;
+  border-radius: 10px;
+}
+textarea {
+  text-align: center;
+  border-radius: 10px;
+}
+input[type="text"]:focus {
+  background-color: #d7dde9;
+  transition: 0.5s;
+}
+input[type="date"]:focus {
+  background-color: #d7dde9;
+  transition: 0.5s;
+}
+input[type="email"]:focus {
+  background-color: #d7dde9;
+  transition: 0.5s;
+}
+textarea:focus {
+  background-color: #d7dde9;
+  transition: 0.5s;
+}
+
+.contactoAccordion {
+  margin: 10px;
+  padding: 10px;
+}

@@ -1,0 +1,36 @@
+/* class:"col-xs-2 col-md-3 col-lg-4" */
+@media (max-width: 768px) {
+  .contenidoMesa {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .gridGaleria {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .navbarBusqueda {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .header {
+    flex-direction: column;
+  }
+  .contenidoMesa {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .gridGaleria {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .mapaMesa {
+    display: none;
+  }
+  .footer ul {
+    width: 180px;
+  }
+  .navbarBusqueda {
+    display: none;
+  }
+  form {
+    display: none;
+  }
+}
